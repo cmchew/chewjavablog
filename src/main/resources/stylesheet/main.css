@@ -20,12 +20,12 @@ div#homePageTitle {
 div#homePageTitle h1 {
     margin: 0;
     position: absolute;
-    top: 100%;
+    top: 160%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    color: orange;
-    font-size: 40px;
+    color: #B43104;
+    font-size: 50px;
 }
 
 ul.no-bullets {
