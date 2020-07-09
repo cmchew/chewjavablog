@@ -20,11 +20,11 @@ div#homePageTitle {
 div#homePageTitle h1 {
     margin: 0;
     position: absolute;
-    top: 300%;
+    top: 100%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: orange;
     font-size: 40px;
 }
 
