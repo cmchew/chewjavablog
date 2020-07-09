@@ -31,18 +31,18 @@ html, body {
     height: 100%;
 }
 #RecipeOne {
-    background-image: url(https://fevenandhelena.files.wordpress.com/2013/01/photo-12.jpg);
+    background-image: url(../images/fata.jpg);
 }
 #RecipeTwo {
-    background-image: url(https://fevenandhelena.files.wordpress.com/2013/01/photo-12.jpg);
+    background-image: url(../images/shero.JPG);
 }
 
 #RecipeThree {
-    background-image: url(https://fevenandhelena.files.wordpress.com/2013/01/photo-12.jpg);
+    background-image: url(../images/gaat.jpg);
 }
 
 #RecipeFour {
-    background-image: url(https://fevenandhelena.files.wordpress.com/2013/01/photo-12.jpg);
+    background-image: url(../images/dorho.jpg);
 }
 
 
