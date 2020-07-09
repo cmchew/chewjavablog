@@ -8,11 +8,14 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 100vh;
 }
+<<<<<<< HEAD
 
 ul.no-bullets {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+=======
+>>>>>>> 634503893698a18f77427a9a5d75d163f7c41bd0
