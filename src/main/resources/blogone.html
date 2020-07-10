@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Etritrean Food Recipes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/main.css">
+    <title>Fata</title>
+</head>
+
+<body>
+
+<!-- Nav bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light mainPage">
+    <a class="navbar-brand" href="#">The Java Collection</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mcbootcamp.html">MC Boot Camp</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Blog Posts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="blogone.html">Pseudocode</a>
+                    <a class="dropdown-item" href="blogtwo.html">Algorithms</a>
+                    <a class="dropdown-item" href="blogthree.html">Inheritance</a>
+                    <a class="dropdown-item" href="blogfour.html">Polymorphism</a>
+                    <div class="dropdown-divider"></div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutme.html">About Me</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+
+
+
+    <div class="container">
+
+
+        <h2 class="Headline">What is Pseudocode?</h2>
+
+        <div class="date"><sub>July 10, 2020</sub></div>
+
+
+        <p>Pseudocode is a computer programming language that resembles plain English that cannot be compiled or executed, but explains a resolution to a problem.</p>
+
+        <p>It is a human-readable representation of an algorithm. It is not written the specific syntax of any particular programming language. However, a programmer can easily translate pseudocode to Java because the pseudocode is the algorithm plus any considerations for making it into a program.</p>
+
+        <img src="images/Pseudocode.jpg" height="223" width="400" align="left"/>
+
+        <p>There is not a standard format for pseudocode. It tends to be a cross between some of the more widely used programming languages and natural language. Pseudocode can generally be read by programmers who are familiar with different programming languages.</p>
+
+        <p>Pseudocode allows one to include all the constructs of the Structure Theorem. Pseudocode can include sequence, selection and repetition as needed to perform the algorithm.</p>
+
+        <p>Pseudocode Conventions Statements are written in simple English. Each instruction is written on a separate line. Keywords and indentation are used to signify particular control structures.
+        Each set of instructions is written from top to bottom, with only one entry point and one exit point.
+        >Groups of statements may be grouped into named modules.
+
+        <h4>So what's the difference between pseudocode and algorithms?</h4>
+        <p>An algorithm is the solution to the problem. It presents a well defined sequence of steps that provides a solution for a given problem. Pseudocode represents the algorithm in a format that resembles any programming language. Pseudocode is the algorithm written in terms of the Structure Theorem.</p>
+
+        <p>The client or business analyst derive the algorithm. Someone with knowledge of programming derives the pseudocode. The programmer develops the program from the pseudocode. The compiler translates the program into byte code or machine code and the program runs! The client is happy. And the Project Manager takes all the credit.</p>
+
+        <p>Example:
+        <p>Algorithm:
+        <p>Our local weatherperson tells us how to convert a temperature from Fahrenheit to Celsius. She says to subtract 32 from the Fahrenheit temperature and then multiply that value by 5/9. That's the algorithm.</p>
+
+        <p>From that we derive the pseudocode:</p>
+
+        <p>Prompt user for fahreheitTemp
+        <br>Get fahreheitTemp
+        <br>Calculate celciusTemp = (fahreheitTemp - 32) * 5/9
+        <br>Display celciusTemp
+        <br>Which description would you rather have in front of you when you're ready to write a program to convert temperatures? The algorithm or the pseudocode?</p>
+
+        <p>Notice that the pseudocode example has made several decisions for the programmer. These include the order of operations, the variable names and the steps to follow.</p>
+
+        <p>The programmer can now focus on programming and not the business problem.</p>
+
+        <p>Programmers are often asked to develop solutions for problems they do not fully understand. It is unlikely that you are a meteorologist. You wouldn't need to be because that person already figured out the formula and gave you the algorithm. You just have to program it. And the project manager has already told the client you did that yesterday.</p>
+
+
+<!--<div class="socialmedia" align="center">-->
+<!--    <p>-->
+
+<!--        <a href="https://twitter.com/indiefilmfan?lang=en" class="fa fa-twitter"></a>-->
+<!--        <a href="https://www.linkedin.com/in/cassiemchew/" class="fa fa-linkedin"></a>-->
+<!--        <a href="https://www.flickr.com/photos/43477610@N02/" class="fa fa-flickr"></a>-->
+
+<!--    </p>-->
+<!--</div>-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

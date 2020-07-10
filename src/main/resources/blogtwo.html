@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Java Collection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet/main.css">
+    <title>Tsebhi Derho</title>
+
+</head>
+
+<body>
+<!-- Nav bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light mainPage">
+    <a class="navbar-brand" href="#">The Java Collection</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mcbootcamp.html">MC Boot Camp</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Blog Posts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="blogone.html">Pseudocode</a>
+                    <a class="dropdown-item" href="blogtwo.html">Algorithms</a>
+                    <a class="dropdown-item" href="blogthree.html">Inheritance</a>
+                    <a class="dropdown-item" href="blogfour.html">Polymorphism</a>
+                    <div class="dropdown-divider"></div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutme.html">About Me</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+
+
+
+
+    <div class="container">
+        <h2 class="Headline">Algorithms</h2>
+
+        <div class="date"><sub>July 10, 2020</sub></div>
+
+        <p> An algorithm is a procedure for solving a problem in terms of the actions to be executed and the order in which those actions are to be executed.
+            An algorithm is merely the sequence of steps taken to solve a problem. The steps are normally "sequence," "selection, " "iteration," and a case-type statement. </p>
+
+
+        <img src="images/algorithm.jpg" height="247" width="401" align="left"/>
+
+        <p>Following the steps will always result in the solution.
+            When a computer is to solve a particular problem, the steps to the solution get communicated to the computer. This makes the study of algorithms an important part of computer science.</p>
+
+        <p>The algorithm gets translated to a programming language, such as Java. The Java compiler will translate the program into instructions the computer can execute. This produces the required output from the given input.
+
+            But translating the algorithm to computer code is not straight forward. To simplify the process, translate the algorithm into pseudocode. The pseudocode will then more easily translate into Java or another programming language.</p>
+
+        IF THE ALGORITHM IS NOT CORRECT, THE PROGRAM NEVER WILL BE</p>
+        <h4>Defining the Problem</h4>
+        <p>To help with the initial analysis, the problem should be divided into three separate components:</p>
+
+<ul>
+    <li>Input: a list of the source data provided to the problem.</li>
+    <li>Output: a list of the outputs required.</li>
+    <li>Processing Steps: a list of the actions needed to produce the required outputs.</li>
+</ul>
+
+
+
+
+        <p>When dividing a problem into its three different components, you should simply analyze the actual words used in the specification, and divide them into those that are descriptive and those that imply actions.
+
+        In some programming problems, the inputs, processes and outputs may not be clearly defined.
+
+        In such cases, it is best to concentrate on the required outputs which will lead to the required inputs needed to produce the desired output.
+
+        The nouns and their associated adjectives will determine the inputs and outputs.
+
+            The verbs will determine the processing requirements.</p>
+
+
+
+        <p> We recommend a three column format as below:</p>
+
+
+<ul>
+    <li>Input</li>
+
+    <li>Processing</li>
+
+    <li>Output</li>
+</ul>
+
+<br>
+<h4>Designing a Solution Algorithm</h4>
+
+        <p>Designing a solution algorithm is the most challenging task in the life cycle of a program.  Once the problem has been properly defined, you usually begin with a rough sketch of the steps required to solve the problem. The first attempt at designing a particular algorithm usually does not result in a finished product.
+
+        Pseudocode is useful in this trial-and-error process, since it is relatively easy to add, delete or alter an instruction. Note that the algorithm starts with a meaningful name and ends with an END statement.
+
+        <p>Checking the Solution Algorithm
+        After a solution algorithm has been established, it must be tested for correctness. This step is necessary because most major logic errors occur during the development of the algorithm, and if not detected, these errors can be passed on to the program.  Desk checking involves tracing through the logic of the algorithm with some chosen test data.</p>
+
+
+<br>
+        <h4>Selecting Test Data</h4>
+        When selecting test data to desk check an algorithm, you must look at the program specification and choose simple test cases only, based on the requirements of the specification, not the algorithm.  By doing this, you will still be able to concentrate on what the program is supposed to do, not how.</p>
+
+
+<br>
+        <h4>Steps in Desk Checking an Algorithm</h4>
+        <p>By desk checking an algorithm, you are attempting to detect early errors. This process is sometimes called a program walk-through.  It is a good idea for someone other than the author of the solution algorithm to design the test data for the program, as they are not influenced by the program logic. Desk checking will eliminate most errors but is not 100% full proof.</p>
+
+
+
+        <p>There are six steps to follow when desk checking an algorithm:</p>
+<ul>
+        <li>Choose simple input test data cases, two or three</li>
+        <li>Determine the expected result for each test case before desk checking your algorithm</li>
+        <li>Make a table of all relevant variables used in the algorithm, variable names at the top of each column</li>
+        <li>Walk the first test case through the algorithm, line by line, keeping a step-by-step record of the contents of each variable</li>
+        <li>Repeat the walk-through process for each of the other test cases.</li>
+        <li>Verify that the expected result from step 2 agrees with the results developed in steps 4 and 5</li>
+</ul>
+
+
+        <p>If the walk-through results do not agree with the expected results from step 2, revise the algorithm.</p>
+
+<!--<div class="socialmedia" align="center">-->
+<!--        <p>-->
+
+<!--        <a href="https://twitter.com/indiefilmfan?lang=en" class="fa fa-twitter"></a>-->
+<!--        <a href="https://www.linkedin.com/in/cassiemchew/" class="fa fa-linkedin"></a>-->
+<!--        <a href="https://www.flickr.com/photos/43477610@N02/" class="fa fa-flickr"></a>-->
+
+<!--        </p>-->
+<!--</div>-->
+
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
