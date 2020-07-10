@@ -11,6 +11,7 @@ body, html {
     height: 100vh;
     padding: 0;
     margin: 0;
+    opacity: 0.9;
 }
 
 
@@ -25,7 +26,9 @@ div#homePageTitle h1 {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     color: #B43104;
-    font-size: 50px;
+    font-size: 60px;
+    background-color: #ffffff80;
+
 }
 
 ul.no-bullets {
